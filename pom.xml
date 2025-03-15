@@ -11,6 +11,7 @@
 		<maven.compiler.target>21</maven.compiler.target>
 		<maven.build.timestamp.format>yyyy-MM-dd_HH-mm-ss</maven.build.timestamp.format>
 		<user.timezone>Asia/Kolkata</user.timezone>
+		<timestamp>${maven.build.timestamp}</timestamp>
 	</properties>
 
 	<build>
@@ -24,7 +25,7 @@
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
-						<reportsDirectory>${project.build.directory}/surefire-reports-${maven.build.timestamp}</reportsDirectory>
+						<reportsDirectory>${project.build.directory}/surefire-reports-${timestamp}</reportsDirectory>
 						<argLine>-Duser.timezone=Asia/Kolkata</argLine>
 					</configuration>
 					<!-- <configuration> <includes> <include>**/APITest.java</include> Runs 
