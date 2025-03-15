@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.578 s <<< FAILURE! - in TestSuite
-api.tests.UserTests2.getUser  Time elapsed: 1.163 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.459 s <<< FAILURE! - in TestSuite
+api.tests.UserTests2.getUser  Time elapsed: 1.27 s  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
