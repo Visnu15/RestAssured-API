@@ -16,6 +16,7 @@ import io.restassured.response.Response;
 public class UserTests2 {
 
 	UserPOJO pojo;
+	
 	Faker fake;
 	
 	public Logger log;
